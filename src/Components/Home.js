@@ -24,9 +24,15 @@ function Home() {
     //     setsData();
     // }, [value]);
     return (
-        <div><center><NavLink to="/AddProduct" >Add Products</NavLink>
-        </center>
-        </div>
+        <div>
+            <div><center><NavLink to="/AddProduct" >Add Products</NavLink>
+
+            </center>
+            </div>
+            <div><center><NavLink to="/AddOrder" >Add Orders</NavLink>
+
+            </center>
+            </div></div>
     );
 }
 

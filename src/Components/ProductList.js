@@ -43,7 +43,8 @@ function Customer() {
 
                                 <td>{pro.ProductID}</td>
                                 <td>{pro.Brand}</td>
-                                <td><Link to={`${pro.ProductCode}`}>More Detail</Link></td>
+                                <td><Link to={"/details/" + pro.ProductCode}>More Details</Link></td>
+                                {/* <td><Link to={{ pathname: `/more/${pro.ProductCode}` }}>More Detail</Link></td> */}
                                 {/* <td><Link to="ProductDetails" params={{ id: pro.ProductID }}>More Details</Link></td> */}
                             </tr>
                         )

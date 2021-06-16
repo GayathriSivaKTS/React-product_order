@@ -21,7 +21,7 @@ export default class Header extends Component {
                 <NavLink to="/Home" >Home</NavLink> |
                 <NavLink to="/Product" >Products</NavLink> |
                 <NavLink to="/Order">Orders</NavLink> |
-                <NavLink to="/Customer">ProductList</NavLink>
+                <NavLink to="/Customer">ProductList</NavLink> |
                 <NavLink to="/AppHook">AppHook</NavLink>
 
 
